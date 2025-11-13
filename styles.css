@@ -1,0 +1,899 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.megabox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(109, 17, 17);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .box1 {
+        height: 528px;
+    }
+}
+
+.box2 {
+    background-color: rgb(82, 9, 9);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+@media only screen and (max-width: 425px) {
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        height: 870px;
+    }
+}
+
+.list {
+    display: inline;
+}
+
+.sticker {
+    display: inline;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+#stickers {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+    #stickers {
+        font-size: 10px;
+    }
+}
+
+#name {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 15px;
+    position: relative;
+    background-color: rgb(109, 17, 17);
+    border: none;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 425px) {
+    #name {
+        font-size: 15px;
+    }
+}
+
+.list {
+    position: relative;
+}
+
+.lll {
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.lll:hover {
+    color: orange;
+}
+
+
+.hhh {
+    cursor: pointer;
+
+}
+
+.hhh::after {
+    content: "";
+    background-color: orange;
+    transition: width 0.5s ease;
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+}
+
+.hhh:hover::after {
+    width: 100%;
+}
+
+.hhh:hover {
+    color: orange;
+}
+
+
+
+.happy {
+    color: orange;
+}
+
+#navlist {
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+    #navlist {
+        display: none;
+    }
+}
+
+#im {
+    color: rgb(246, 120, 120);
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: -20px;
+
+}
+
+@media only screen and (max-width: 425px) {
+    #im {
+        font-size: 22px;
+    }
+}
+
+
+
+#fname {
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: bolder;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 425px) {
+    #fname {
+        font-size: 30px;
+    }
+}
+
+#line {
+    border: solid;
+    border-bottom-color: orange;
+    width: 350px;
+    border-bottom-width: 6px;
+    border-radius: 20px 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    #line {
+        width: 120px;
+        border-bottom-width: 2px;
+        margin-top: -55px;
+    }
+}
+
+#bio {
+    width: 250px;
+    color: aliceblue;
+    font-size: large;
+}
+
+@media only screen and (max-width: 425px) {
+    #bio {
+        font-size: small;
+    }
+}
+
+.fcolumn {
+    margin-left: 50px;
+    width: 450px;
+    margin-top: 40px;
+
+}
+
+#pic {
+    height: 450px;
+    width: 450px;
+}
+
+@media only screen and (max-width: 425px) {
+    #pic {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.img {
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 2;
+    margin-top: -500px;
+}
+
+@media only screen and (max-width: 425px) {
+    .img {
+        margin-top: -108px;
+        margin-left: 200px;
+    }
+}
+
+.fcolumns {
+    display: flex;
+}
+
+@media only screen and (max-width: 425px) {
+    .fcolumns {
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+    }
+}
+
+.services {
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 425px) {
+    .services {
+        margin-left: 50px;
+        margin-top: -114px;
+    }
+}
+
+.circle {
+    clip-path: circle(50% at 50% 50%);
+    background-color: rgb(82, 9, 9);
+    width: 550px;
+    height: 550px;
+    position: relative;
+    z-index: auto;
+}
+
+@media only screen and (max-width: 425px) {
+    .circle {
+        width: 118px;
+        height: 118px;
+        margin-left: 200px;
+        margin-top: -400px;
+    }
+}
+
+.pfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+
+    width: 450px;
+}
+
+@media only screen and (max-width: 425px) {
+    .pfp {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#serv {
+    font-size: 19px;
+    color: aliceblue;
+}
+
+#srvnote {
+    font-size: 27px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 425px) {
+    #srvnote {
+        font-size: medium;
+    }
+}
+
+.shmore {
+    color: orange;
+
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .shmore {
+        font-size: small;
+
+    }
+}
+
+.shmore:hover {
+    color: aliceblue;
+}
+
+.arrow {
+    color: orange;
+}
+
+.logo {
+    color: rgb(246, 120, 120);
+    background-color: rgb(82, 9, 9);
+    border: solid;
+    border-radius: 50%;
+    padding: 3px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+
+.logo:hover {
+    background-color: orange;
+    color: aliceblue;
+    box-shadow: 0px 0px 20px pink;
+}
+
+.logos {
+    margin-top: 10px;
+}
+
+.box3 {
+    width: 900px;
+    height: 120px;
+    background-color: rgb(140, 31, 31);
+    position: relative;
+    z-index: 3;
+    margin-top: -1950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px 20px;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .box3 {
+        width: 350px;
+                margin-top: -2700px;
+    }
+}
+
+.innerbut {
+    width: 150px;
+    height: 60px;
+}
+
+#gpic {}
+
+@media only screen and (max-width: 425px) {
+    #gpic {
+        content: url(./google2.webp);
+        width: 50px;
+        height: 50px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+#mpic {}
+
+@media only screen and (max-width: 425px) {
+    #mpic {
+        content: url(./meta2.png);
+        width: 50px;
+        height: 50px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+#inpic {}
+
+@media only screen and (max-width: 425px) {
+    #inpic {
+        content: url(./in2.png);
+        width: 50px;
+        height: 50px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+#spic {}
+
+@media only screen and (max-width: 425px) {
+    #spic {
+        content: url(./slack2.png);
+        width: 50px;
+        height: 50px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+.but {
+    background-color: rgb(82, 9, 9);
+    border: none;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px 20px;
+    padding: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .but {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.but:hover {
+    border-color: orange;
+    box-shadow: 0 0 20px pink;
+    margin: 20px;
+}
+
+.c1 {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.text1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 425px) {
+    .text1 {
+        font-size: 16px;
+        height: 18px;
+        display: inline-block;
+    }
+}
+
+.rcolumn {
+    width: 750px;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .rcolumn {
+        width: 400px;
+        margin-left: -57px;
+    }
+}
+
+.text2 {
+    color: aliceblue;
+    font-size: large;
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .text2 {
+        font-size: 12px;
+
+    }
+}
+
+.nvlist {
+    display: flex;
+    gap: 30px;
+}
+
+.lbox4 {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 425px) {
+    .lbox4 {
+        font-size: 11px;
+
+    }
+}
+
+.lboxnum {
+    color: orange;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 425px) {
+    .lboxnum {
+        font-size: 15px;
+
+    }
+}
+
+.lastwholebox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 425px) {
+    .lastwholebox {
+        margin-left: 155px;
+
+    }
+}
+
+.comp1 {
+    height: 120px;
+    width: 120px;
+}
+
+@media only screen and (max-width: 425px) {
+    .comp1 {
+
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.leftcolumn {
+    width: 600px;
+    margin-left: 50px;
+}
+
+.proj1 {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.projtext1 {
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.lastarrow1 {
+    margin-left: 100px;
+    color: orange;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: xx-large;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+
+}
+@media only screen and (max-width: 425px) {
+    .lastarrow1 {
+
+         margin-left: 45px;
+        margin-top: 10px;
+        font-size: 27px;
+        height:44px ;
+        width:44px ;
+    }
+}
+.lastarrow1:hover {
+    border-color: orange;
+    color: aliceblue;
+    box-shadow: 0 0 10px aliceblue;
+    background-color: orange;
+}
+
+.projname {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .projname {
+
+        font-size: 14px;
+    }
+}
+
+.projproj {}
+@media only screen and (max-width: 425px) {
+    .projproj {
+
+        font-size: 10px;
+    }
+}
+.proj2 {
+    display: flex;
+}
+
+#compu2 {
+    margin-top: 20px;
+}
+
+.proj3 {
+    display: flex;
+}
+
+#compu3 {
+    margin-top: 20px;
+}
+
+.box4 {
+    background-color: rgb(82, 9, 9);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+}
+@media only screen and (max-width: 425px) {
+    .box4 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 850px;
+    }
+}
+.tcolor {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lastitems {
+    background-color: rgb(140, 31, 31);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid transparent;
+    border-radius: 20%;
+}
+@media only screen and (max-width: 425px) {
+    .lastitems{
+height: 240px;
+   margin-top: 35px;
+    }
+}
+.lastitems:hover {
+    animation: slideUp 1.5s ease;
+}
+
+.lasticon {
+    color: rgb(246, 120, 120);
+    background-color: rgb(82, 9, 9);
+    border: solid;
+    border-radius: 50%;
+    padding: 3px;
+    border-color: transparent;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ii {
+    font-size: 40px;
+}
+
+.aitext {
+    color: aliceblue;
+    font-size: medium;
+}
+
+.aitextpaddind {
+    padding: 20px;
+}
+
+.box5 {
+    background-color: rgb(82, 9, 9);
+    width: 100%;
+    height: 250px;
+}
+
+.hire {
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.hire1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 425px) {
+    .hire1{font-size: 19px;
+
+    }
+}
+.hire2{
+
+}
+@media only screen and (max-width: 425px) {
+    .hire2{font-size: 11px;
+
+    }
+}
+.line2 {
+    background-color: aliceblue;
+    height: 2px;
+    margin-top: 19px;
+    width: 1550px;
+    margin-left: 50px;
+}
+
+.contact {
+    margin-left: 50px;
+    color: rgb(82, 9, 9);
+    background-color: rgb(246, 120, 120);
+    border: solid;
+    border-radius: 20px 20px;
+    padding: 3px;
+    border-color: transparent;
+    width: 115px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    padding-top: 10px;
+}
+
+.contact:hover {
+
+    background-color: orange;
+    color: aliceblue;
+    box-shadow: 0px 0px 25px pink;
+}
+
+.cont {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box6 {
+    background-color: rgb(109, 17, 17);
+    width: 100%;
+    height: 530px;
+
+
+}
+
+.bx61 {
+    color: aliceblue;
+}
+
+.servy {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.innerdiv6 {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 425px) {
+    .innerdiv6{margin-left: 5px;
+    }
+}
+.bx6c2 {
+    margin-left: 50px;
+}
+
+#bx6br {
+    margin-top: 100px;
+}
+
+.endline {
+
+    background-color: aliceblue;
+    height: 2px;
+    margin-top: 19px;
+    width: 1550px;
+    margin-left: 50px;
+}
+
+.foot {
+    background-color: rgb(109, 17, 17);
+    width: 100%;
+    height: 150px;
+
+}
+
+#henryend {
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+@media only screen and (max-width: 425px) {
+    #henryend {
+        font-size: 15px;
+        margin-left: 7px;
+
+    }
+}
+#henryend:hover {
+    color: orange;
+
+}
+
+#henryend::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    border-radius: 2px;
+    transition: width 0.4s ease;
+}
+
+#henryend:hover::after {
+    width: 100%;
+}
+
+#emoend {
+    font-size: xx-large;
+}
+
+.endend {
+    color: aliceblue;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 425px) {
+    .endend {
+margin-left:0px ;
+    
+}}
+.endc {
+    display: flex;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 425px) {
+    .endc {
+       display: flex; 
+
+    }
+}
+.endendhenry {
+    color: orange;
+}
+
+#c11 {}
+
+@media only screen and (max-width: 425px) {
+    #c11 {
+        margin-top: 60px;
+
+    }
+}
