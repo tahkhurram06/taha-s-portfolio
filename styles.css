@@ -205,7 +205,11 @@ body {
     margin-top: 40px;
 
 }
-
+@media only screen and (max-width: 425px) {
+    .fcolumn {
+        width: 175px;
+    }
+}
 #pic {
     height: 450px;
     width: 450px;
@@ -558,6 +562,15 @@ body {
 .leftcolumn {
     width: 600px;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media only screen and (max-width: 425px) {
+    .leftcolumn {
+
+       width: 290px;
+    }
 }
 
 .proj1 {
@@ -746,6 +759,11 @@ height: 240px;
     margin-left: 50px;
 }
 
+@media only screen and (max-width: 425px) {
+    .line2{width: 70%;
+
+    }
+}
 .contact {
     margin-left: 50px;
     color: rgb(82, 9, 9);
@@ -798,6 +816,7 @@ height: 240px;
 }
 @media only screen and (max-width: 425px) {
     .innerdiv6{margin-left: 5px;
+        width: 410px;
     }
 }
 .bx6c2 {
@@ -806,6 +825,11 @@ height: 240px;
 
 #bx6br {
     margin-top: 100px;
+}
+ @media only screen and (max-width: 425px) {
+    #bx6br{
+        margin-right: 1%;
+    }
 }
 
 .endline {
@@ -816,7 +840,10 @@ height: 240px;
     width: 1550px;
     margin-left: 50px;
 }
-
+@media only screen and (max-width: 425px) {
+    .endline{width: 75%;
+    }
+}
 .foot {
     background-color: rgb(109, 17, 17);
     width: 100%;
