@@ -1,7 +1,9 @@
+* {
+    box-sizing: border-box; 
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
-
-
+    overflow-x: hidden; 
 }
 
 .megabox {
@@ -207,7 +209,8 @@ body {
 }
 @media only screen and (max-width: 425px) {
     .fcolumn {
-        width: 175px;
+        width: 90%; 
+        margin-left: 5%; 
     }
 }
 #pic {
@@ -244,8 +247,9 @@ body {
     .fcolumns {
         display: flex;
         flex-direction: column;
-        margin-left: -40px;
-        width: 424px;
+        width: 100%; 
+        margin-left: 0;
+        align-items: center; 
     }
 }
 
@@ -257,7 +261,8 @@ body {
 
 @media only screen and (max-width: 425px) {
     .services {
-        margin-left: 50px;
+        margin-left: 5%;
+        width: 90%;
         margin-top: -114px;
     }
 }
@@ -292,8 +297,9 @@ body {
 
 @media only screen and (max-width: 425px) {
     .pfp {
-        width: 100px;
+        width: 100%; 
         height: 100px;
+        margin-left: 0; 
     }
 }
 
@@ -375,8 +381,8 @@ body {
 
 @media only screen and (max-width: 425px) {
     .box3 {
-        width: 350px;
-                margin-top: -2700px;
+        width: 90%; 
+        margin-top: -2700px;
     }
 }
 
@@ -484,8 +490,9 @@ body {
 
 @media only screen and (max-width: 425px) {
     .rcolumn {
-        width: 400px;
-        margin-left: -57px;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px; 
     }
 }
 
@@ -542,8 +549,8 @@ body {
 
 @media only screen and (max-width: 425px) {
     .lastwholebox {
-        margin-left: 155px;
-
+        margin-left: 0;
+        justify-content: center;
     }
 }
 
@@ -569,8 +576,8 @@ body {
 }
 @media only screen and (max-width: 425px) {
     .leftcolumn {
-
-       width: 290px;
+        width: 95%;
+        margin-left: 5%;
     }
 }
 
@@ -586,10 +593,10 @@ body {
 }
 
 .lastarrow1 {
-    margin-left: 100px;
+    margin-left: 100px; 
     color: orange;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 400px; 
     font-size: xx-large;
     border: 2px solid transparent;
     transition: all 0.3s ease;
@@ -597,12 +604,14 @@ body {
     border-radius: 50%;
     cursor: pointer;
     width: 60px;
+    margin-left: auto;
+    margin-right: 50px; 
 
 }
 @media only screen and (max-width: 425px) {
     .lastarrow1 {
-
-         margin-left: 45px;
+        margin-left: auto; 
+        margin-right: 5px; 
         margin-top: 10px;
         font-size: 27px;
         height:44px ;
@@ -679,7 +688,8 @@ body {
 
 .lastitems {
     background-color: rgb(140, 31, 31);
-    width: 400px;
+    width: 90%; 
+    max-width: 400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -688,8 +698,8 @@ body {
 }
 @media only screen and (max-width: 425px) {
     .lastitems{
-height: 240px;
-   margin-top: 35px;
+        height: 240px;
+        margin-top: 35px;
     }
 }
 .lastitems:hover {
@@ -756,13 +766,15 @@ height: 240px;
     background-color: aliceblue;
     height: 2px;
     margin-top: 19px;
-    width: 1550px;
-    margin-left: 50px;
+    width: 90%;
+    max-width: 1550px;
+    margin-left: 5%; 
 }
 
 @media only screen and (max-width: 425px) {
-    .line2{width: 70%;
-
+    .line2{
+        width: 90%;
+        margin-left: 5%;
     }
 }
 .contact {
@@ -816,8 +828,10 @@ height: 240px;
     margin-top: 50px;
 }
 @media only screen and (max-width: 425px) {
-    .innerdiv6{margin-left: 5px;
-        width: 410px;
+    .innerdiv6{
+        margin-left: 5px;
+        width: 95%; 
+        padding: 0 5px;
     }
 }
 .bx6c2 {
@@ -827,7 +841,7 @@ height: 240px;
 #bx6br {
     margin-top: 100px;
 }
- @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 425px) {
     #bx6br{
         margin-right: 1%;
     }
@@ -837,12 +851,15 @@ height: 240px;
 
     background-color: aliceblue;
     height: 2px;
+    width: 90%;
+    max-width: 1550px;
+    margin-left: 5%; 
     margin-top: 19px;
-    width: 1550px;
-    margin-left: 50px;
 }
 @media only screen and (max-width: 425px) {
-    .endline{width: 75%;
+    .endline{
+        width: 90%;
+        margin-left: 5%;
     }
 }
 .foot {
@@ -900,16 +917,17 @@ height: 240px;
 }
 @media only screen and (max-width: 425px) {
     .endend {
-margin-left:0px ;
+        margin-left: 10px ;
     
 }}
 .endc {
     display: flex;
     margin-top: 30px;
+    width: 95%; 
 }
 @media only screen and (max-width: 425px) {
     .endc {
-       display: flex; 
+        display: flex; 
 
     }
 }
